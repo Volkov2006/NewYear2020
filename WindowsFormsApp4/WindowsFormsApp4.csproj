@@ -78,6 +78,9 @@
     <EmbeddedResource Include="Game.resx">
       <DependentUpon>Game.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="lossForm.resx">
+      <DependentUpon>lossForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -88,6 +91,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Success.resx">
+      <DependentUpon>Success.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -109,6 +115,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\www-255068.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1450790426_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2013Animals___Cats_Grumpy_British_cat_in_hat_044298_29.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

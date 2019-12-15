@@ -61,13 +61,13 @@
             this.button30 = new System.Windows.Forms.Button();
             this.button31 = new System.Windows.Forms.Button();
             this.button32 = new System.Windows.Forms.Button();
+            this.button33 = new System.Windows.Forms.Button();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button33 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -78,6 +78,7 @@
             // 
             // richTextBox1
             // 
+            this.richTextBox1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox1.Location = new System.Drawing.Point(319, 342);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(382, 44);
@@ -142,6 +143,7 @@
             this.button6.TabIndex = 6;
             this.button6.Text = "Е";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.Button6_Click);
             // 
             // button7
             // 
@@ -161,6 +163,7 @@
             this.button8.TabIndex = 8;
             this.button8.Text = "З";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.Button8_Click);
             // 
             // button9
             // 
@@ -170,6 +173,7 @@
             this.button9.TabIndex = 9;
             this.button9.Text = "И";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.Button9_Click);
             // 
             // button10
             // 
@@ -179,6 +183,7 @@
             this.button10.TabIndex = 10;
             this.button10.Text = "Й";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.Button10_Click);
             // 
             // button11
             // 
@@ -188,6 +193,7 @@
             this.button11.TabIndex = 11;
             this.button11.Text = "К";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.Button11_Click);
             // 
             // button12
             // 
@@ -197,6 +203,7 @@
             this.button12.TabIndex = 12;
             this.button12.Text = "Л";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.Button12_Click);
             // 
             // button13
             // 
@@ -206,6 +213,7 @@
             this.button13.TabIndex = 13;
             this.button13.Text = "М";
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.Button13_Click);
             // 
             // button14
             // 
@@ -215,6 +223,7 @@
             this.button14.TabIndex = 14;
             this.button14.Text = "Н";
             this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.Button14_Click);
             // 
             // button15
             // 
@@ -224,6 +233,7 @@
             this.button15.TabIndex = 15;
             this.button15.Text = "О";
             this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.Button15_Click);
             // 
             // button16
             // 
@@ -233,6 +243,7 @@
             this.button16.TabIndex = 16;
             this.button16.Text = "П";
             this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.Button16_Click);
             // 
             // button17
             // 
@@ -242,6 +253,7 @@
             this.button17.TabIndex = 17;
             this.button17.Text = "Р";
             this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.Button17_Click);
             // 
             // button18
             // 
@@ -261,6 +273,7 @@
             this.button19.TabIndex = 19;
             this.button19.Text = "Т";
             this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.Button19_Click);
             // 
             // button20
             // 
@@ -270,6 +283,7 @@
             this.button20.TabIndex = 20;
             this.button20.Text = "У";
             this.button20.UseVisualStyleBackColor = true;
+            this.button20.Click += new System.EventHandler(this.Button20_Click);
             // 
             // button21
             // 
@@ -279,6 +293,7 @@
             this.button21.TabIndex = 21;
             this.button21.Text = "Ф";
             this.button21.UseVisualStyleBackColor = true;
+            this.button21.Click += new System.EventHandler(this.Button21_Click);
             // 
             // button22
             // 
@@ -288,6 +303,7 @@
             this.button22.TabIndex = 22;
             this.button22.Text = "Х";
             this.button22.UseVisualStyleBackColor = true;
+            this.button22.Click += new System.EventHandler(this.Button22_Click);
             // 
             // button23
             // 
@@ -297,6 +313,7 @@
             this.button23.TabIndex = 23;
             this.button23.Text = "Ц";
             this.button23.UseVisualStyleBackColor = true;
+            this.button23.Click += new System.EventHandler(this.Button23_Click);
             // 
             // button24
             // 
@@ -306,6 +323,7 @@
             this.button24.TabIndex = 24;
             this.button24.Text = "Ч";
             this.button24.UseVisualStyleBackColor = true;
+            this.button24.Click += new System.EventHandler(this.Button24_Click);
             // 
             // button25
             // 
@@ -315,6 +333,7 @@
             this.button25.TabIndex = 25;
             this.button25.Text = "Ш";
             this.button25.UseVisualStyleBackColor = true;
+            this.button25.Click += new System.EventHandler(this.Button25_Click);
             // 
             // button26
             // 
@@ -354,6 +373,7 @@
             this.button29.TabIndex = 29;
             this.button29.Text = "Ь";
             this.button29.UseVisualStyleBackColor = true;
+            this.button29.Click += new System.EventHandler(this.Button29_Click);
             // 
             // button30
             // 
@@ -373,6 +393,7 @@
             this.button31.TabIndex = 31;
             this.button31.Text = "Ю";
             this.button31.UseVisualStyleBackColor = true;
+            this.button31.Click += new System.EventHandler(this.Button31_Click);
             // 
             // button32
             // 
@@ -384,9 +405,18 @@
             this.button32.UseVisualStyleBackColor = true;
             this.button32.Click += new System.EventHandler(this.Button32_Click);
             // 
+            // button33
+            // 
+            this.button33.Location = new System.Drawing.Point(594, 12);
+            this.button33.Name = "button33";
+            this.button33.Size = new System.Drawing.Size(129, 23);
+            this.button33.TabIndex = 39;
+            this.button33.Text = "Начать Заново";
+            this.button33.UseVisualStyleBackColor = true;
+            this.button33.Click += new System.EventHandler(this.Button33_Click);
+            // 
             // pictureBox6
             // 
-            this.pictureBox6.BackgroundImage = global::WindowsFormsApp4.Properties.Resources.www_255068;
             this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox6.Location = new System.Drawing.Point(623, 690);
             this.pictureBox6.Name = "pictureBox6";
@@ -397,7 +427,6 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.BackgroundImage = global::WindowsFormsApp4.Properties.Resources.www_255068;
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox5.Location = new System.Drawing.Point(493, 690);
             this.pictureBox5.Name = "pictureBox5";
@@ -408,7 +437,6 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.BackgroundImage = global::WindowsFormsApp4.Properties.Resources.www_255068;
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox4.Location = new System.Drawing.Point(366, 690);
             this.pictureBox4.Name = "pictureBox4";
@@ -418,7 +446,6 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.BackgroundImage = global::WindowsFormsApp4.Properties.Resources.www_255068;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Location = new System.Drawing.Point(245, 690);
             this.pictureBox3.Name = "pictureBox3";
@@ -428,7 +455,6 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackgroundImage = global::WindowsFormsApp4.Properties.Resources.www_255068;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Location = new System.Drawing.Point(129, 690);
             this.pictureBox2.Name = "pictureBox2";
@@ -439,22 +465,12 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = global::WindowsFormsApp4.Properties.Resources.www_255068;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(12, 690);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(89, 63);
             this.pictureBox1.TabIndex = 33;
             this.pictureBox1.TabStop = false;
-            // 
-            // button33
-            // 
-            this.button33.Location = new System.Drawing.Point(594, 12);
-            this.button33.Name = "button33";
-            this.button33.Size = new System.Drawing.Size(129, 23);
-            this.button33.TabIndex = 39;
-            this.button33.Text = "Начать Заново";
-            this.button33.UseVisualStyleBackColor = true;
             // 
             // Game
             // 
@@ -503,6 +519,7 @@
             this.Controls.Add(this.richTextBox1);
             this.Name = "Game";
             this.Text = "Game";
+            this.Load += new System.EventHandler(this.Game_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();

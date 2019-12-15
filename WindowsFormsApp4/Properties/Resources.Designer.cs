@@ -63,6 +63,26 @@ namespace WindowsFormsApp4.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1450790426_2 {
+            get {
+                object obj = ResourceManager.GetObject("1450790426_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2013Animals___Cats_Grumpy_British_cat_in_hat_044298_29 {
+            get {
+                object obj = ResourceManager.GetObject("2013Animals___Cats_Grumpy_British_cat_in_hat_044298_29", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap f330ab01d4310d015fc6e7777fccafcf {
             get {
                 object obj = ResourceManager.GetObject("f330ab01d4310d015fc6e7777fccafcf", resourceCulture);
@@ -84,9 +104,9 @@ namespace WindowsFormsApp4.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap www_255068 {
+        internal static System.Drawing.Bitmap live {
             get {
-                object obj = ResourceManager.GetObject("www-255068", resourceCulture);
+                object obj = ResourceManager.GetObject("live", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
