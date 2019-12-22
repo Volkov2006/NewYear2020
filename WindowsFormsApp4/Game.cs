@@ -352,5 +352,20 @@ namespace WindowsFormsApp4
 
                
         }
+
+        private void PictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PictureBox7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RichTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
